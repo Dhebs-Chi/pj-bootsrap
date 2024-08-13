@@ -7,6 +7,15 @@
     <title>Document</title>
 
     <style>
+
+.col-md-3, .col-md-9, .col-md-12, .col-md-4 {
+        padding: 0; /* Remove padding from columns */
+    }
+
+        .row{
+            margin: 0;
+            padding: 0;
+        }
         * {
             margin: 0;
             padding: 0;
@@ -15,7 +24,7 @@
             padding: 0;
         }
         
-        .row {
+        .third-row {
             margin: 50;
             background-color: #3f1934;
             align-items: 20;
@@ -36,8 +45,8 @@
             filter: hue-rotate(0deg) brightness(30%);
         }
         .card-img-overlay {
-            padding: 60;
-            margin: 60;
+            padding: 0;
+            margin: 0;
         }
 
         nav {
@@ -52,7 +61,7 @@
             text-decoration: none;
         }
 
-        .row {
+        .first-row {
             background-color: #4F1787;
             padding: 0;
             text-align: 0;
@@ -62,7 +71,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row first-row">
             <div class="col-md-3">
                 <a href="index.html"> <img src="fas-logo.png" height="50px" width="50px"></a>
             </div>
@@ -78,19 +87,18 @@
                 <div class="card text-bg-dark">
                     <img src="fashion.jpg" class="card-img" alt="fashion">
                     <div class="card-img-overlay">
-                      <h5 class="card-title">Fashion For All</h5>
-                      <p class="card-text">Fashion For All is an inspiration sort by professionals and top clients from previous times. 
-                        Our aim is to satisfy the need and create a balance for all classes. We are more glad to have everyone or almost everyone in our circle.
-                      </p>
-                      <p class="card-text"><small>Bringing all your ideas to light, we won't back down our creativity with you.</small></p>
+                        <h5 class="card-title">Fashion For All</h5>
+                        <p class="card-text">Fashion For All is an inspiration sort by professionals and top clients from previous times. 
+                            Our aim is to satisfy the need and create a balance for all classes. We are more glad to have everyone or almost everyone in our circle.
+                        </p>
+                        <p class="card-text"><small>Bringing all your ideas to light, we won't back down our creativity with you.</small></p>
                     </div>
-                  </div>
+                </div>
             </div>
-
-
         </div>
+        
  
-        <div class="row">
+        <div class="row third-row">
             <div class="col-md-4">
                 <a href="">Facebook</a>
                 <a href="">Instagram</a>
