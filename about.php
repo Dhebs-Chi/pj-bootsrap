@@ -13,7 +13,7 @@
         }
         .third-row {
             margin: 50;
-            background-color: #3f1934;
+            background-color:rgba(0, 0, 0, 1);
             align-items: 20;
         }
         .nav a {
@@ -23,7 +23,7 @@
             text-decoration: none;
         }
         .first-row {
-            background-color: #4F1787;
+            background-color: rgba(0, 0, 0, 1);
             padding: 0;
             text-align: 0;
         }
@@ -37,12 +37,15 @@
     <div class="container-fluid">
         <div class="row first-row nav">
             <div class="col-md-3">
-                <a href="index.html"> <img src="fas-logo.png" height="50px" width="50px"></a>
+            <a href="index.php" style="padding-left: 12px"> <img src="image/fas-logo.png" height="90px" width="90px" style="border-radius: 30px"></a>
             </div>
-            <div class="col-md-9">
-                <a href="index.html" style="margin-right: 50px; text-decoration: none; color: #C5705D">Home</a>
-                <a href="about.html" style="margin-right: 50px; text-decoration: none; color: #C5705D">About</a>
-                <a href="contact.html" style="text-decoration: none; color: #C5705D;">Contact</a>
+            <div class="col-md-9  d-flex align-items-end">
+                <div class="d-flex justify-content-between w-50">">
+                <a href="index.php" style="margin-right: 50px; text-decoration: none; color: rgb(255, 255, 255)">Home</a>
+                <a href="about.php" style="margin-right: 50px; text-decoration: none; color: rgb(255, 255, 255)">About</a>
+                <a href="catalog.php" style="margin-right: 50px; text-decoration: none; color: rgb(255, 255, 255)">Catalog</a>
+                <a href="sales.php" style="margin-right: 50px; text-decoration: none; color: rgb(255, 255, 255)">Sales</a>
+                <a href="contact.php" style="text-decoration: none; color: rgb(255, 255, 255)">Contact</a>
             </div>
         </div>
 
@@ -50,7 +53,7 @@
             <div class="col-md-12">
                 <div class="card-group">
                     <div class="card">
-                      <img src="plussize.webp" class="card-img-top" alt="plussize">
+                      <img src="image/plussize.webp" class="card-img-top" alt="plussize">
                       <div class="card-body">
                         <h5 class="card-title">Women Classy Plus Size Outfit.</h5>
                         <p class="card-text">High Fashion for all body sizes.</p>
@@ -60,7 +63,7 @@
                       </div>
                     </div>
                     <div class="card">
-                      <img src="casImg.webp" class="card-img-top" alt="casImg">
+                      <img src="image/casImg.webp" class="card-img-top" alt="casImg">
                       <div class="card-body">
                         <h5 class="card-title">Casual Outfit</h5>
                         <p class="card-text">Your everyday combinations. From shorts, gowns, knitted wears, hats, sun glasses and more.</p>
@@ -70,7 +73,7 @@
                       </div>
                     </div>
                     <div class="card">
-                      <img src="couplesNight.jpg" class="card-img-top" alt="couplesNight">
+                      <img src="image/couplesNight.jpg" class="card-img-top" alt="couplesNight">
                       <div class="card-body">
                         <h5 class="card-title">Couples Outfit</h5>
                         <p class="card-text">What beats a night out or hang out than a well worn outfit?<p>There is no need for a double guess as the best time to showcase beauty and elegance is in an outing.</p> <p>It is in the style that the fun begins.</p> <p>We have you covered for all events. From matching outfit maintaining steeze.</p> </p>
@@ -87,7 +90,7 @@
                   <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card h-100">
-                        <img src="menfas.webp" class="card-img-top" alt="menfas">
+                        <img src="image/menfas.webp" class="card-img-top" alt="menfas">
                         <div class="card-body">
                           <h5 class="card-title">Mens World</h5>
                           <p class="card-text"></p>
@@ -96,7 +99,7 @@
                     </div>
                     <div class="col">
                       <div class="card h-100">
-                        <img src="casualmale.webp" class="card-img-top" alt="casualmale">
+                        <img src="image/casualmale.webp" class="card-img-top" alt="casualmale">
                         <div class="card-body">
                           <h5 class="card-title">Casual Wears</h5>
                           <p class="card-text">If simplicity is all you desire, You can also check out our out let.</p>
@@ -105,7 +108,7 @@
                     </div>
                     <div class="col">
                       <div class="card h-100">
-                        <img src="classymen.webp" class="card-img-top" alt="classymen">
+                        <img src="image/classymen.webp" class="card-img-top" alt="classymen">
                         <div class="card-body">
                           <h5 class="card-title">Suit Men</h5>
                           <p class="card-text">How do you close deals without firstly looking nice and presentable.<p>Quality, unique and high fashionable suits are readily available.</p> </p>
@@ -114,7 +117,7 @@
                     </div>
                     <div class="col">
                       <div class="card h-100">
-                        <img src="knitmen.webp" class="card-img-top" alt="knitmen">
+                        <img src="image/knitmen.webp" class="card-img-top" alt="knitmen">
                         <div class="card-body">
                           <h5 class="card-title">Knitted Male Wears</h5>
                           <p class="card-text">Looking elegant and unique in Knitted Outfit will never go wrong.</p>
@@ -144,7 +147,7 @@
         
  
         <div class="row third-row">
-            <div class="col-md-4">
+            <div class="col-md-4 color">
                 <a href="">Facebook</a>
                 <a href="">Instagram</a>
                 <a href="https://wa.me/2347083037092">Whatsapp</a>
@@ -152,7 +155,7 @@
             <div class="col-md-4 color">
                 All Rights Reserved. &COPY;2024 Designed by Deborah
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 color">
                 <a href="Email"style="text-decoration:none; color: whitesmoke;"><p>Email:</a> <a href="mailto:mydailyonlinehustle@gmail.com">mydailyonlinehustlegmail.com</a></p> 
                 <a href="Phone Nunber"style="text-decoration:none; color: whitesmoke;"><p>Phone Number:</a> <a href="tel+07083037092">07083037092</a></p>
 
